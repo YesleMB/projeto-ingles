@@ -34,6 +34,10 @@ const Card = styled.div`
   &:hover{
     background-color: #bfc1c1;
   }  
+  @media (max-width:700px){
+    width: 24rem;
+    height: 30rem;
+  }
 `;
 const CardImagem = styled.div`
   display: flex;
@@ -42,6 +46,12 @@ const CardImagem = styled.div`
   width: 20rem;
   position :relative;
   bottom: 50px;
+  @media (max-width:700px){
+    width: 18rem;
+    height: 18rem;
+    bottom: 0px;
+
+  }
 
 `
 
@@ -51,6 +61,10 @@ const Imagem = styled.img`
   object-fit: cover;
     border-radius: 100%;
 `;
+const Nome = styled.h1`
+font-size: 25px;
+
+`
 
 const Cards = [
   { cartao1: { texto: 'Ciência Da Computação', foto: Fotow, titulo:"Wesley Mendes Barboza" } },
@@ -74,8 +88,8 @@ function CardComponent() {
             <CardImagem>
               <Imagem src={cartao[Object.keys(cartao)[0]].foto} alt="Imagem do Card" />
             </CardImagem>
-          <h1>{cartao[Object.keys(cartao)[0]].titulo}</h1>  
-          <p>curso: <b>{cartao[Object.keys(cartao)[0]].texto}</b></p>
+          <Nome>{cartao[Object.keys(cartao)[0]].titulo}</Nome>  
+          <h3>curso: <b>{cartao[Object.keys(cartao)[0]].texto}</b></h3>
         </Card>
       ))}
     </CardContainer>

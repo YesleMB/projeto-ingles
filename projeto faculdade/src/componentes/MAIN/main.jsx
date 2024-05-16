@@ -9,12 +9,17 @@ height: auto;
 justify-content: center;
 align-items: center;
 word-wrap: break-word;
+@media (max-width:800px){
+}
 
 
 `
 export const Titulo =styled.h1`
 font-size: 100px;
 color: rgb(35, 30, 200);
+@media (max-width: 800px){
+    font-size:75px;
+}
 `
 export const Texto = styled.p`
 font-size: 25px;
@@ -42,6 +47,9 @@ border-radius: 50px;
 transition: 0.5s linear;
 &:hover{
     background-color: #fff;
+}
+@media (max-width:800px) {
+    
 }
 
 `
