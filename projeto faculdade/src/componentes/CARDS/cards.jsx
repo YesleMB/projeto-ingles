@@ -10,6 +10,7 @@ import fotodaniel from './image/fotodaniel.jpg';
 import fotonoe from './image/fotonoe.jpg';
 import fotomiguel from './image/fotomiguel.jpg';
 import fotobeatriz from './image/fotobeatriz.png';
+import fotodougas from './image/fotodouglas.jpg';
 
 const CardContainer = styled.div`
   display: flex;
@@ -77,7 +78,7 @@ const Cards = [
   { cartao8: { texto: 'Ciência Da Computação',foto: fotomiguel, titulo:"Miguel Azevedo Silva" } },
   { cartao9: { texto: 'Ciências Contábeis',foto: fotonoe, titulo:"Noé Pericles Gonçalves Cordeiro" } },
   { cartao10: { texto: 'Ciências Contábeis',foto: fotobeatriz, titulo:"Beatriz Cassiano Gomes" } },
-  { cartao11: { texto: 'Texto 11' } },
+  { cartao11: { texto: 'TAnálise e Desenvolvimento de Sistemas',foto: fotodougas, titulo:"Douglas da Silva Barbosa" } },
 ];
 
 function CardComponent() {
