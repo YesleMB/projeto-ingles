@@ -69,16 +69,16 @@ font-size: 25px;
 
 const Cards = [
   { cartao1: { texto: 'Ciência Da Computação', foto: Fotow, titulo:"Wesley Mendes Barboza" } },
-  { cartao2: { texto: 'Análise e desenvolvimento de sistemas', foto: fotovic,titulo:"Victoria Branco de Matos"}},
-  { cartao3: { texto: 'Análise e desenvolvimento de sistemas',foto: fotobrenda, titulo: "Brenda Mathias da Silva"} },
+  { cartao2: { texto: 'Análise e desenv. de sistemas', foto: fotovic,titulo:"Victoria Branco de Matos"}},
+  { cartao3: { texto: 'Análise e desenv. de sistemas',foto: fotobrenda, titulo: "Brenda Mathias da Silva"} },
   { cartao4: { texto: 'Gestão da Tecnologia da Informação' ,foto: fotocarlos,titulo: "Carlos Augusto Muraro Amaral"} },
   { cartao5: { texto: 'Gestão de TI' ,foto: fotodaniel,titulo:"Daniel Florindo Souza"} },
-  { cartao6: { texto: 'Análise e desenvolvimento de sistemas',foto: fotoleo2, titulo:"Leonardo Soares Garcia" } },
+  { cartao6: { texto: 'Análise e desenv. de sistemas',foto: fotoleo2, titulo:"Leonardo Soares Garcia" } },
   { cartao7: { texto: 'Ciências Contábeis',foto: fotocris,titulo:"Cristiane Barreto de Souza" } },
   { cartao8: { texto: 'Ciência Da Computação',foto: fotomiguel, titulo:"Miguel Azevedo Silva" } },
   { cartao9: { texto: 'Ciências Contábeis',foto: fotonoe, titulo:"Noé Pericles Gonçalves Cordeiro" } },
   { cartao10: { texto: 'Ciências Contábeis',foto: fotobeatriz, titulo:"Beatriz Cassiano Gomes" } },
-  { cartao11: { texto: 'TAnálise e Desenvolvimento de Sistemas',foto: fotodougas, titulo:"Douglas da Silva Barbosa" } },
+  { cartao11: { texto: 'TAnálise e Desenv. de Sistemas',foto: fotodougas, titulo:"Douglas da Silva Barbosa" } },
 ];
 
 function CardComponent() {

@@ -1,6 +1,6 @@
 import {Conteiner,GlobalStyle} from "./index";
 import Header from "../componentes/HEADER/header";
-import {ConteinerMain,Texto,Espaco,CorTitulo,ConteinerBotaoTroca,BotaoTroca,Linktroca} from "../componentes/MAIN/main";
+import {Texto,Espaco,CorTitulo,ConteinerBotaoTroca,BotaoTroca,Linktroca} from "../componentes/MAIN/main";
 import styled from "styled-components";
 const ConteinerConteudo1= styled.main`
 display: flex;

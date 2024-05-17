@@ -12,6 +12,7 @@ flex-direction: column;
 width: 50rem;
 @media (max-width: 700px) {
     width: 25rem;
+    padding: 5px;
 }
 
 `

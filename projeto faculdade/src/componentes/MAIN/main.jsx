@@ -4,22 +4,37 @@ import { Link } from "react-router-dom";
 
 export const ConteinerMain = styled.main`
 display: flex;
-width: 400px;
-height: auto;
 justify-content: center;
 align-items: center;
 word-wrap: break-word;
-@media (max-width:800px){
-}
+
 
 
 `
 export const Titulo =styled.h1`
 font-size: 100px;
-margin:50px 0px;
+
 color: rgb(35, 30, 200);
 @media (max-width: 800px){
     font-size:70px;
+    margin:0;
+}
+`
+const ConteinerTItulo = styled.div`
+   display: flex;
+width: 400px;
+height: auto;
+justify-content: center;
+align-items: center;
+word-wrap: break-word;
+flex-wrap: wrap;
+
+@media(max-width: 700px){
+    width: 250px;
+    height: auto;
+    margin: 0;
+    
+    
 }
 `
 export const Texto = styled.p`
@@ -68,7 +83,10 @@ export const Linktroca = styled(Link)`
 function Main(){
     return(
         <ConteinerMain>
-                <Titulo>The importance of English<Span> in modern technologies.</Span> </Titulo>
+            <ConteinerTItulo>
+            <Titulo>The importance of English<Span> in modern technologies.</Span> </Titulo>
+
+            </ConteinerTItulo>
             </ConteinerMain> 
 
     )
