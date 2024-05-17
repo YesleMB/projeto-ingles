@@ -81,7 +81,7 @@ const Cards = [
   { cartao8: { texto: 'Ciência Da Computação',foto: fotomiguel, titulo:"Miguel Azevedo Silva" } },
   { cartao9: { texto: 'Ciências Contábeis',foto: fotonoe, titulo:"Noé Pericles Gonçalves Cordeiro" } },
   { cartao10: { texto: 'Ciências Contábeis',foto: fotobeatriz, titulo:"Beatriz Cassiano Gomes" } },
-  { cartao11: { texto: 'TAnálise e Desenv. de Sistemas',foto: fotodougas, titulo:"Douglas da Silva Barbosa" } },
+  { cartao11: { texto: 'Análise e Desenv. de Sistemas',foto: fotodougas, titulo:"Douglas da Silva Barbosa" } },
 ];
 
 function CardComponent() {
