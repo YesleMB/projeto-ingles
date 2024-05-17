@@ -1,21 +1,25 @@
 import {Conteiner,GlobalStyle} from "./index";
 import Header from "../componentes/HEADER/header";
-import {ConteinerMain,Texto,Espaco,CorTitulo,Linktroca,ConteinerBotaoTroca,BotaoTroca} from "../componentes/MAIN/main";
+import {Texto,Espaco,CorTitulo,Linktroca,ConteinerBotaoTroca,BotaoTroca} from "../componentes/MAIN/main";
 import styled from "styled-components";
 
-const ConteinerConteudo4 = styled(ConteinerMain)`
+const ConteinerConteudo1= styled.main`
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 width: 50rem;
+@media (max-width: 700px) {
+    width: 25rem;
+}
+
 `
 function Conteudo4(){
     return(
         <Conteiner>
             <GlobalStyle/>
             <Header/>
-                <ConteinerConteudo4>
+                <ConteinerConteudo1>
                     <h1><CorTitulo>IMPORTANCE OF ENGLISH IN WORK</CorTitulo> </h1>
                      <Texto>
                      Regarding the Technology field, the presence of English is so pervasive that any attempt 
@@ -116,7 +120,7 @@ generations, they promise to revolutionize how we create software even further. 
 integration leads us to an exciting future where application development will be more 
 efficient than ever, freeing up more time for innovation and what truly matters. 
                     </Texto>
-                </ConteinerConteudo4>
+                </ConteinerConteudo1>
                 <ConteinerBotaoTroca>
         <BotaoTroca><Linktroca to ="/conteudo3">
         back Content</Linktroca></BotaoTroca>

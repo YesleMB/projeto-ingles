@@ -1,23 +1,27 @@
 import {Conteiner,GlobalStyle} from "./index";
 import Header from "../componentes/HEADER/header";
-import {ConteinerMain,Texto,Espaco, CorTitulo,ConteinerBotaoTroca,Linktroca,BotaoTroca} from "../componentes/MAIN/main";
+import {Texto,Espaco, CorTitulo,ConteinerBotaoTroca,Linktroca,BotaoTroca} from "../componentes/MAIN/main";
 import styled from "styled-components";
-
-const ConteinerConteudo1= styled(ConteinerMain)`
+const ConteinerConteudo1= styled.main`
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 width: 50rem;
+@media (max-width: 700px) {
+    width: 25rem;
+}
 
 `
+
+
 
 function Conteudo2(){
     return(
         <Conteiner>
             <GlobalStyle/>
             <Header/>
-            <ConteinerConteudo1>  
+            <ConteinerConteudo1> 
                <h1><CorTitulo>IMPORTANCE OF ENGLISH IN TOURISM </CorTitulo>
 </h1>
                 <Texto>

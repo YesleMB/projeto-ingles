@@ -2,13 +2,15 @@ import {Conteiner,GlobalStyle} from "./index";
 import Header from "../componentes/HEADER/header";
 import {ConteinerMain,Texto,Espaco,CorTitulo,ConteinerBotaoTroca,BotaoTroca,Linktroca} from "../componentes/MAIN/main";
 import styled from "styled-components";
-
-const ConteinerConteudo3 = styled(ConteinerMain)`
+const ConteinerConteudo1= styled.main`
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 width: 50rem;
+@media (max-width: 700px) {
+    width: 25rem;
+}
 
 `
 
@@ -18,7 +20,7 @@ function Conteudo3(){
         <Conteiner>
             <GlobalStyle/>
             <Header/>
-            <ConteinerConteudo3>
+            <ConteinerConteudo1>
                 <h1><CorTitulo>IMPORTANCE OF ENGLISH IN GAMES</CorTitulo> </h1>
                 
             <Texto>The importance of English in gaming technology is significant for several reasons. Firstly, 
@@ -67,7 +69,7 @@ everyday experiences that would be useful in real situations in another country.
 this is created through the Scala programming language. 
 
          </Texto>
-            </ConteinerConteudo3>
+            </ConteinerConteudo1>
             <ConteinerBotaoTroca>
         <BotaoTroca><Linktroca to ="/conteudo2">
         back Content</Linktroca></BotaoTroca>

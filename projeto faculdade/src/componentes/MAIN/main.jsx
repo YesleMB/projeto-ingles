@@ -16,14 +16,16 @@ word-wrap: break-word;
 `
 export const Titulo =styled.h1`
 font-size: 100px;
+margin:50px 0px;
 color: rgb(35, 30, 200);
 @media (max-width: 800px){
-    font-size:75px;
+    font-size:70px;
 }
 `
 export const Texto = styled.p`
 font-size: 25px;
 color: #aeadad;;
+
 `
 export const Espaco = styled.br`
 gap: 20px;
@@ -48,7 +50,7 @@ transition: 0.5s linear;
 &:hover{
     background-color: #fff;
 }
-@media (max-width:800px) {
+@media (max-width:700px) {
     
 }
 

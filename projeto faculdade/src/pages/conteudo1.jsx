@@ -1,18 +1,20 @@
 import {Conteiner,GlobalStyle} from "./index";
 import Header from "../componentes/HEADER/header";
-import {ConteinerMain,Texto,Espaco,CorTitulo,ConteinerBotaoTroca,BotaoTroca,Linktroca} from "../componentes/MAIN/main";
+import {Texto,Espaco,CorTitulo,ConteinerBotaoTroca,BotaoTroca,Linktroca} from "../componentes/MAIN/main";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
-const ConteinerConteudo1= styled(ConteinerMain)`
+
+const ConteinerConteudo1= styled.main`
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 width: 50rem;
+@media (max-width: 700px) {
+    width: 25rem;
+}
 
 `
-
 
 function Conteudo1(){
     return(
@@ -21,7 +23,6 @@ function Conteudo1(){
         <Header/>
         <ConteinerConteudo1>
         <h1><CorTitulo>IMPORTANCE OF ENGLISH IN STUDIES</CorTitulo> </h1>
-
             <Texto>
                 Learning English or any other foreign language develops significant areas of the brain 
 and enhances the natural ability to focus and process information. Besides, it's a 
@@ -58,8 +59,10 @@ which one lives. And most importantly, changing your relationship with the world
             </Texto>
         </ConteinerConteudo1>
         <ConteinerBotaoTroca>
-        <BotaoTroca><Linktroca to ="/conteudo2">
-        Next Content</Linktroca></BotaoTroca>
+        <BotaoTroca>
+           
+            <Linktroca to ="/conteudo2"> Next Content</Linktroca>
+        </BotaoTroca>
         </ConteinerBotaoTroca>
  
 

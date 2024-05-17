@@ -35,7 +35,7 @@ const Card = styled.div`
   &:hover{
     background-color: #bfc1c1;
   }  
-  @media (max-width:700px){
+  @media (max-width:400px){
     width: 24rem;
     height: 30rem;
   }
