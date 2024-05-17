@@ -66,6 +66,9 @@ const Nome = styled.h1`
 font-size: 25px;
 
 `
+const SubTitulo = styled.h3`
+margin: 0;
+`
 
 const Cards = [
   { cartao1: { texto: 'Ciência Da Computação', foto: Fotow, titulo:"Wesley Mendes Barboza" } },
@@ -90,7 +93,8 @@ function CardComponent() {
               <Imagem src={cartao[Object.keys(cartao)[0]].foto} alt="Imagem do Card" />
             </CardImagem>
           <Nome>{cartao[Object.keys(cartao)[0]].titulo}</Nome>  
-          <h3>curso: <b>{cartao[Object.keys(cartao)[0]].texto}</b></h3>
+          <SubTitulo>Curso:</SubTitulo>
+          <h3> <b>{cartao[Object.keys(cartao)[0]].texto}</b></h3>
         </Card>
       ))}
     </CardContainer>
