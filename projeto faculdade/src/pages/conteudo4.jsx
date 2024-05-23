@@ -2,18 +2,8 @@ import {Conteiner,GlobalStyle} from "./index";
 import Header from "../componentes/HEADER/header";
 import {Texto,Espaco,CorTitulo,Linktroca,ConteinerBotaoTroca,BotaoTroca} from "../componentes/MAIN/main";
 import styled from "styled-components";
+import {ConteinerConteudo1} from "./conteudo1"
 
-const ConteinerConteudo1= styled.main`
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-width: 50rem;
-@media (max-width: 700px) {
-    width: 25rem;
-}
-
-`
 function Conteudo4(){
     return(
         <Conteiner>

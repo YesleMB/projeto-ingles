@@ -58,12 +58,18 @@ display: flex;
 height: 15rem;
 width: 38rem;
 flex-wrap: wrap;
-@media (max-width:700px){
-  width: 23rem;
+@media (max-width:400px){
+  width: 20rem;
   height: auto;
-  padding: 0;
+  padding: 30px 0 0 0;
   margin: 0;
 
+}
+@media (min-width: 400px){
+  width: 23rem;
+  height: auto;
+  padding: 30px 0 0 0;
+  margin: 0;
 }
 `
 export const Span = styled.span`

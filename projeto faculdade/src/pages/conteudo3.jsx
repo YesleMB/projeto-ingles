@@ -2,17 +2,9 @@ import {Conteiner,GlobalStyle} from "./index";
 import Header from "../componentes/HEADER/header";
 import {Texto,Espaco,CorTitulo,ConteinerBotaoTroca,BotaoTroca,Linktroca} from "../componentes/MAIN/main";
 import styled from "styled-components";
-const ConteinerConteudo1= styled.main`
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-width: 50rem;
-@media (max-width: 700px) {
-    width: 25rem;
-}
+import {ConteinerConteudo1} from "./conteudo1"
 
-`
+
 
 
 function Conteudo3(){

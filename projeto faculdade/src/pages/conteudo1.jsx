@@ -4,16 +4,21 @@ import {Texto,Espaco,CorTitulo,ConteinerBotaoTroca,BotaoTroca,Linktroca} from ".
 import styled from "styled-components";
 
 
-const ConteinerConteudo1= styled.main`
+export const ConteinerConteudo1= styled.main`
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 width: 50rem;
-@media (max-width: 700px) {
+@media (max-width: 400px) {
+    width: 22rem;
+    padding: 5px;
+}
+@media (min-width: 400px){
     width: 25rem;
     padding: 5px;
 }
+
 
 `
 

@@ -15,7 +15,11 @@ export const Titulo =styled.h1`
 font-size: 100px;
 
 color: rgb(35, 30, 200);
-@media (max-width: 800px){
+@media (max-width: 400px){
+    font-size:3.7rem;
+    margin:0;
+}
+@media (min-width: 400px){
     font-size:70px;
     margin:0;
 }
@@ -40,6 +44,7 @@ flex-wrap: wrap;
 export const Texto = styled.p`
 font-size: 25px;
 color: #aeadad;;
+
 
 `
 export const Espaco = styled.br`
