@@ -16,7 +16,7 @@ font-size: 100px;
 
 color: rgb(35, 30, 200);
 @media (max-width: 400px){
-    font-size:3.2rem;
+    font-size:3rem;
     margin:0;
 }
 @media (min-width: 402px)and (max-width:1000px ){
