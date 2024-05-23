@@ -126,7 +126,7 @@ const BotaoComTexto = () => {
               <BalaoTexto>
                 {balaoTexto}
                 <br/>
-                <Link to={conexao}>descubra mais</Link>
+                <Link to={conexao}>Find out more</Link>
               </BalaoTexto>
             )}
           </Conteiner>
