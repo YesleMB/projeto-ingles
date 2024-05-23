@@ -12,7 +12,7 @@ const ConteinerNav = styled.nav`
   justify-content: space-between;
   box-shadow: 0px 5px 10px rgb(255, 255, 255);
   transition: box-shadow 10s ease-in-out;
-  @media screen and (max-width: 700px){
+  @media (max-width: 700px){
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,9 +42,14 @@ const Texto = styled.h1`
   color: #ffffff;
   font-size: 30px;
   margin:0;
-  @media screen and (max-width:700px) {
-    font-size: 20px;
+
+  @media (max-width:700px) {
+    font-size: 16px;
     
+  }
+  @media (min-width: 701px) and (max-width:1000px) {
+    font-size: 20px;
+
   }
 `;
 
