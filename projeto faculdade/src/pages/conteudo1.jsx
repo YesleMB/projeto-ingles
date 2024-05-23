@@ -14,9 +14,9 @@ width: 50rem;
     width: 22rem;
     padding: 5px;
 }
-@media (min-width: 400px){
+@media (min-width: 402px)and (max-width:1000px ){
     width: 25rem;
-    padding: 5px;
+    padding: 10px;
 }
 
 
@@ -70,6 +70,7 @@ which one lives. And most importantly, changing your relationship with the world
             <Linktroca to ="/conteudo2"> Next Content</Linktroca>
         </BotaoTroca>
         </ConteinerBotaoTroca>
+        <Espaco/>
  
 
         

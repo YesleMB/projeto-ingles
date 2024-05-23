@@ -65,7 +65,7 @@ flex-wrap: wrap;
   margin: 0;
 
 }
-@media (min-width: 400px){
+@media (min-width: 402px) and (max-width:1000px ){
   width: 23rem;
   height: auto;
   padding: 30px 0 0 0;
